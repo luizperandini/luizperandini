@@ -1,6 +1,6 @@
 # Hi there, I'm Luiz 👋
 
-[LinkedIn](https://www.linkedin.com/in/luiz-perandini) • [Google Scholar](https://scholar.google.com/citations?user=2iNPrO8AAAAJ&hl=en) • [Portfolio](https://github.com/luizperandini/mimic-clinical-cohort-explorer) • [Email](mailto:lperandini@gmail.com)
+[LinkedIn](https://www.linkedin.com/in/luiz-perandini) • [Google Scholar](https://scholar.google.com/citations?user=2iNPrO8AAAAJ&hl=en) • [Email](mailto:lperandini@gmail.com)
 
 ---
 
@@ -19,18 +19,19 @@ Clinical research professional with a PhD and 10+ years of experience bridging c
 ## 🔬 Professional interests
 
 - Real-world data (RWD) and real-world evidence (RWE) in healthcare
+- Clinical data management and eCRF workflows
 - Clinical cohort exploration and feasibility analysis
 - Healthcare AI datasets, radiology reports, and clinical NLP
+- LLM-based information extraction from clinical notes
 - Data quality, endpoint extraction, and regulatory-grade datasets
 - Project and portfolio management in clinical research
-- Healthcare data linkage, tokenization, and distributed data environments
 
 ---
 
 ## 🛠️ Currently working on
 
 - Building a clinical cohort explorer using PostgreSQL, Python, and MIMIC-IV
-- Creating portfolio projects focused on healthcare analytics and clinical data science
+- Developing an LLM-based pipeline for extracting oncology findings from clinical notes
 - Improving my machine learning and NLP skills for healthcare applications
 
 ---
@@ -49,7 +50,9 @@ Clinical research professional with a PhD and 10+ years of experience bridging c
 |---|---|
 | Languages | SQL, PostgreSQL, Python |
 | Data | EHR data, DICOM/imaging data, MIMIC-IV |
-| Compliance | HIPAA-compliant data handling |
+| Clinical DM | eCRF Design & Review, Data Quality Check Planning, DMPs |
+| Compliance | HIPAA-compliant data handling, GCP (ICH E6) |
+| AI/NLP | Ollama, Llama 3.2, prompt engineering, JSON extraction |
 | PM Tools | Jira, Atlassian Planning |
 | Other | Git, GitHub |
 
@@ -59,7 +62,7 @@ Clinical research professional with a PhD and 10+ years of experience bridging c
 
 - 🎓 PhD in Medical Sciences — University of São Paulo (USP)
 - 🤖 Postgraduate Specialization in Artificial Intelligence — UTFPR (in progress)
-- ✅ Good Clinical Practice (GCP)
+- ✅ Good Clinical Practice (GCP) — ICH E6
 - ✅ Strategic Planning Foundations
 - 🇬🇧 EF SET English Certificate — C2 Proficient (76/100)
 
@@ -70,6 +73,7 @@ Clinical research professional with a PhD and 10+ years of experience bridging c
 - Healthcare AI and real-world data projects using MIMIC-IV or similar EHR datasets
 - Clinical data science and RWE portfolio projects
 - Open-source tools for cohort identification, data QC, and clinical NLP
+- LLM-based clinical information extraction and classification workflows
 - SQL or Python-based healthcare analytics workflows
 
 ---
@@ -85,6 +89,19 @@ Clinical cohort exploration and healthcare analytics platform built with Postgre
 - MIMIC-IV demo database loading
 - Python-based analytics workflow
 - Portfolio experience with EHR-style clinical data
+
+---
+
+### 🧬 [clinical-pathology-llm-extractor](https://github.com/luizperandini/clinical-pathology-llm-extractor)
+Local LLM-based pipeline for extracting and classifying oncology-relevant findings from clinical notes — including radiology reports, pathology reports, and medical oncologist notes — using open-source models via Ollama.
+
+**What this project shows:**
+- LLM-based clinical NLP using Ollama and Llama 3.2
+- Structured JSON extraction and validation from unstructured clinical text
+- Oncology tissue classification across 6 categories
+- Prompt engineering for regulated healthcare contexts
+- Human-in-the-loop design for clinical data curation workflows
+- Concurrent processing and retry logic for production-like pipelines
 
 ---
 
